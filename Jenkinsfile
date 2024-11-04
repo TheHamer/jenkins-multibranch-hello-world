@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // get code from github repo
-                git branch: 'main', url: 'https://github.com/TheHamer/jenkins-multibranch-hello-world.git'
+                git branch: 'master', url: 'https://github.com/TheHamer/jenkins-multibranch-hello-world.git'
             }
         }
         stage('Compile') {
