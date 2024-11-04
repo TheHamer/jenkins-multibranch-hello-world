@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // get code from github repo
-                git branch: 'main', url: 'https://github.com/LahmiaHoqueQA/lbg-hello-world-maven.git'
+                git branch: 'farewell', url: 'https://github.com/LahmiaHoqueQA/lbg-hello-world-maven.git'
             }
         }
         stage('Compile') {
